@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1274px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 35px;
+  background: linear-gradient(
+    275.34deg,
+    #ffc633 17.21%,
+    rgba(255, 195, 43, 0.986405) 17.22%,
+    rgba(212, 166, 47, 0.751622) 103.24%,
+    rgba(209, 164, 47, 0.73877) 103.24%,
+    rgba(238, 184, 47, 0.71) 103.25%,
+    rgba(236, 183, 46, 0) 103.26%
+  );
+}
+
+.header-nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 45px;
+  color: black;
+}
+
+/* Nav */
+
+.nav-list {
+  display: flex;
+  column-gap: 40px;
+  padding-left: 650px;
+  justify-content: space-between;
+}
+
+.nav-button {
+  display: none;
+  max-width: 75px;
+  min-height: 75px;
+}
+
+.nav-link {
+  color: #000;
+}
+
+/* Header content */
+
+.header-row {
+  display: flex;
+  column-gap: 30px;
+  padding-top: 60px;
+}
+
+.armchair {
+  width: 500px;
+  margin-left: 100px;
+}
+
+.header-content {
+  margin: 65px 0px;
+  margin-bottom: 100px;
+  max-width: 600px;
+}
+
+.header-content span {
+  background-color: orange;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.header-heading {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.header-content p {
+  margin-bottom: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+}
+
+.works-imgs {
+  margin-top: 15px;
+  padding: 100px 0px;
+  background-color: rgb(236, 177, 67);
+  border-radius: 50px;
+}
+
+.works-divan {
+  max-width: 770px;
+  max-height: 453px;
+  padding: 0px 1px;
+}
+
+.info h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.info h2 {
+  margin-top: 170px;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.info p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.contacts {
+  margin: 90 0px;
+  padding-bottom: 70px;
+  padding-top: 30px;
+  background: #ededed;
+}
+
+.contacts-title {
+  margin-bottom: 35px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.contacts-button {
+  margin: 60px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.btn {
+  margin: 0px 458px;
+  color: white;
+  display: inline-block;
+  padding: 7px 22px;
+  background-color: #070707;
+  border-radius: 30px;
+}
