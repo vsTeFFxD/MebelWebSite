@@ -52,6 +52,27 @@ body {
   min-height: 75px;
 }
 
+.nav-buttonup {
+  display: block;
+  position: fixed;
+  max-width: 75px;
+  min-height: 75px;
+}
+
+.stt {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  right: 20;
+  bottom: 20;
+  z-index: 2;
+}
+
+.stt__active {
+  visibility: visible;
+  opacity: 0.8;
+}
+
 .nav-link {
   color: #000;
 }
@@ -116,14 +137,14 @@ body {
 }
 
 .info h2 {
-  margin-top: 170px;
+  margin-top: 100px;
   margin-bottom: 35px;
   font-weight: 700;
   font-size: 35px;
 }
 
 .info p {
-  margin-top: 10px;
+  margin-top: 12px;
   font-weight: 400;
   font-size: 20px;
 }
@@ -146,10 +167,10 @@ body {
   margin: 60px 0;
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
 }
 
 .btn {
-  margin: 0px 458px;
   color: white;
   display: inline-block;
   padding: 7px 22px;

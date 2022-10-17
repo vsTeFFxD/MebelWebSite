@@ -1,4 +1,4 @@
-@media (max-width: 1274px) {
+@media (max-width: 1170px) {
   .nav-list {
     display: none;
   }
@@ -20,7 +20,7 @@
     z-index: 1;
 
     padding: 40px 30px;
-    padding-bottom: 400px;
+    padding-bottom: 600px;
     display: flex;
     flex-direction: column;
     row-gap: 35px;
@@ -64,6 +64,7 @@
   .works-divan {
     max-width: 430px;
     max-height: 365px;
+    object-fit: cover;
   }
 
   .contacts-button {
@@ -74,7 +75,6 @@
     width: 400px;
     padding: 7px 20px;
     margin: 0px 0px;
-    align-items: center;
   }
 }
 
