@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/allImages.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
@@ -29,7 +29,9 @@
                 >
               </li>
               <li class="nav-item">
-                <a href="#more" class="nav-link" id="nav-link2">Подробнее</a>
+                <a href="./index.html" class="nav-link" id="nav-link2"
+                  >Подробнее</a
+                >
               </li>
               <li class="nav-item">
                 <a href="#contacts" class="nav-link" id="nav-link3">Контакты</a>
@@ -43,67 +45,63 @@
             </button>
           </nav>
         </div>
-        <div class="header-row">
-          <div class="header-content" data-aos="fade-up-right">
-            <h1 class="header-heading">
-              Мастерская мебели в <br />
-              Омске
-            </h1>
-            <p>Возвращаем жизнь вашей старой мебели</p>
-            <p>Выезд мастера <span>бесплатно!</span></p>
-            <p>Все районы города!</p>
-            <p>Индивидуальный подход к каждому заказчику!</p>
-          </div>
-          <div class="header-img">
-            <img src="./img/armchair_PNG7062.png" alt="" class="armchair" />
-          </div>
-        </div>
       </div>
     </header>
-    <section id="our-works" class="info">
+    <section>
       <div class="container">
-        <div class="works">
+        <div class="works-all">
           <h1>Наши работы</h1>
-          <div class="works-imgs" data-aos="zoom-in">
-            <img
-              src="./img/our-works/officedivan.jpg"
-              alt="officedivan"
-              class="works-divan"
-            />
-            <img
-              src="./img/our-works/yellowdivan.jpg"
-              alt="yellowdivan"
-              class="works-divan"
-            />
-            <img
-              src="./img/our-works/purpledivan.jpg"
-              alt="purpledivan"
-              class="works-divan"
-            />
-            <div class="works-seeall-imgs">
-              <a href="./allImages.html" class="btn-imgs"
-                >Смотреть все фотографии</a
-              >
+          <div class="works-gallery">
+            <div class="gallery__card">
+              <img
+                src="./img/our-works/officedivan.jpg"
+                alt="officedivan"
+                class="works__gallery__img"
+              />
+            </div>
+            <div class="gallery__card">
+              <img
+                src="./img/our-works/derev.jpg"
+                alt="derev"
+                class="works__gallery__img"
+              />
+            </div>
+            <div class="gallery__card">
+              <img
+                src="./img/our-works/purpledivan.jpg"
+                alt="derev"
+                class="works__gallery__img"
+              />
+            </div>
+            <div class="gallery__card">
+              <img
+                src="./img/our-works/yellowdivan.jpg"
+                alt="derev"
+                class="works__gallery__img"
+              />
+            </div>
+            <div class="gallery__card">
+              <img
+                src="./img/our-works/kreslo.jpg"
+                alt="kreslo"
+                class="works__gallery__img"
+              />
+            </div>
+            <div class="gallery__card">
+              <img
+                src="./img/our-works/photo_2022-10-13_15-45-52.jpg"
+                alt="sunduk"
+                class="works__gallery__img"
+              />
+            </div>
+            <div class="gallery__card">
+              <img
+                src="./img/our-works/photo_2022-10-13_15-49-05.jpg"
+                alt="derev"
+                class="works__gallery__img"
+              />
             </div>
           </div>
-        </div>
-        <div id="more" class="more" data-aos="zoom-in-down">
-          <h1>Подробнее</h1>
-          <h2>Что мы делаем:</h2>
-          <p>
-            1. Перетяжку диванов, кроватей, кресел, стульев, пуфиков (большой
-            выбор мебельной ткани).
-          </p>
-          <p>
-            2. Ремонт мягкой мебели, замена фурнитуры, механизмов трансформации
-            дивана
-          </p>
-          <p>3. Ремонт корпусной мебели, сборка и замена фасада</p>
-          <p>
-            4. Реконструкция и изготовление корпусной мебели на заказ по вашим
-            размерам
-          </p>
-          <p class="more-also"></p>
         </div>
       </div>
     </section>
@@ -129,6 +127,5 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   ></script>
-  <script src="./js/scrollToTop-min.js"></script>
   <script src="./js/main.js"></script>
 </html>

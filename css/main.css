@@ -118,7 +118,7 @@ body {
 
 .works-imgs {
   margin-top: 15px;
-  padding: 100px 0px;
+  padding: 75px 0px;
   background-color: rgb(236, 177, 67);
   border-radius: 50px;
 }
@@ -127,6 +127,20 @@ body {
   max-width: 770px;
   max-height: 453px;
   padding: 0px 1px;
+}
+
+.works-seeall-imgs {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.btn-imgs {
+  color: white;
+  font-weight: 500;
+  font-size: 23px;
+  padding: 10px 32px;
+  background-color: rgb(190, 42, 42);
+  border-radius: 30px;
 }
 
 .info h1 {
@@ -176,4 +190,8 @@ body {
   padding: 7px 22px;
   background-color: #070707;
   border-radius: 30px;
+}
+
+.contacts-end p {
+  margin-top: 8px;
 }
