@@ -42,7 +42,7 @@ body {
 .nav-list {
   display: flex;
   column-gap: 40px;
-  padding-left: 650px;
+  padding-left: 600px;
   justify-content: space-between;
 }
 
@@ -116,6 +116,10 @@ body {
   font-size: 27px;
 }
 
+.works {
+  margin: 150px 0px;
+}
+
 .works-imgs {
   margin-top: 15px;
   padding: 75px 0px;
@@ -139,12 +143,11 @@ body {
   font-weight: 500;
   font-size: 23px;
   padding: 10px 32px;
-  background-color: rgb(190, 43, 42);
+  background-color: rgb(190, 42, 42);
   border-radius: 30px;
 }
 
 .info h1 {
-  margin-top: 50px;
   text-align: center;
   font-weight: 600;
   font-size: 50px;
@@ -161,6 +164,52 @@ body {
   margin-top: 12px;
   font-weight: 400;
   font-size: 20px;
+}
+
+.textile {
+  margin: 200px 0px;
+}
+
+.textile-content {
+  display: flex;
+  border-radius: 20px;
+}
+
+.textile-text {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.textile-btn {
+  margin-top: 80px;
+}
+
+.btn-tt {
+  background-color: rgb(233, 222, 210);
+  padding: 20px;
+  font-weight: 500;
+  font-size: 22;
+  border-radius: 40px;
+}
+
+.textile-img {
+  margin: 10;
+  width: 400px;
+  height: 400px;
+}
+
+.advantages {
+  margin-bottom: 150px;
+  padding: 100px 0px;
+  background-color: #e9ddbe;
+}
+
+.advantages h1 {
+  margin-bottom: 105px;
+}
+
+.advantages p {
+  margin-bottom: 20;
 }
 
 .contacts {
@@ -184,7 +233,7 @@ body {
   text-align: center;
 }
 
-.btn {
+.btn-cont {
   color: white;
   display: inline-block;
   padding: 7px 22px;
