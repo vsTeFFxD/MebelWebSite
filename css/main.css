@@ -180,6 +180,10 @@ body {
   text-align: center;
 }
 
+.textile-text a {
+  color: black;
+}
+
 .textile-btn {
   margin-top: 80px;
 }

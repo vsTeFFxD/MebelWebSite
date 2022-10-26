@@ -5,6 +5,7 @@ const arr = [
   (navLink1 = document.querySelector("#nav-link1")),
   (navLink2 = document.querySelector("#nav-link2")),
   (navLink3 = document.querySelector("#nav-link3")),
+  (navLink3 = document.querySelector("#nav-link4")),
 ];
 
 navBtn.onclick = () => {

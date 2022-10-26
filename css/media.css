@@ -67,6 +67,22 @@
     object-fit: cover;
   }
 
+  .textile-text h1 {
+    font-size: 40px;
+  }
+
+  .btn-tt {
+    font-size: 19px;
+  }
+
+  .advantages h1 {
+    font-size: 45px;
+  }
+
+  .advantages p {
+    font-size: 20px;
+  }
+
   .contacts-button {
     text-align: center;
   }
